@@ -18,7 +18,7 @@ app.use((error, req, res, next) => {
 app.use("/auth", require("./routes/jwtAuth"))
 app.use("/home", require("./routes/homeRoutes"))
 app.use("/chore", require("./routes/choreRoutes"))
-const PORT = precess.env.PORT || 5000
-app.listen(5000, () => {
+const PORT = process.env.PORT || 5000
+app.listen(PORT, () => {
     console.log('server has')
 })
