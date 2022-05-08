@@ -21,7 +21,7 @@
     "nodemon": "^2.0.16",
     "pg": "^8.7.3",
     "postgrator": "^7.1.0",
-    "postgrator-cli": "^4.0.0"
+    "postgrator-cli": "^3.2.0"
   },
   "devDependencies": {}
 }

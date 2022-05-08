@@ -1,7 +1,7 @@
 const express = require("express")
 const app = express()
 const cors = require("cors")
-require("dotenv").config
+require("dotenv").config()
 
 app.use(express.json())
 app.use(cors())
@@ -20,5 +20,5 @@ app.use("/home", require("./routes/homeRoutes"))
 app.use("/chore", require("./routes/choreRoutes"))
 const PORT = process.env.PORT || 5000
 app.listen(PORT, () => {
-    console.log('server has')
+    console.log("server has started")
 })

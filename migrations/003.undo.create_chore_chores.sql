@@ -1,1 +1,1 @@
-DROP TABLE IF EXISTS chore_chores;
+DROP TABLE IF EXISTS chore_chores

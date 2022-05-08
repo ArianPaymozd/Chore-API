@@ -4,4 +4,4 @@ CREATE TABLE chore_users (
     email TEXT NOT NULL,
     password TEXT NOT NULL,
     houses INTEGER[]
-);
+)
