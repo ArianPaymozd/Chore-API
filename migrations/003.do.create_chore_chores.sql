@@ -4,4 +4,4 @@ CREATE TABLE chore_chores (
     assigned INTEGER REFERENCES chore_users(id) ON DELETE SET NULL,
     description TEXT NOT NULL,
     done BOOLEAN NOT NULL
-)
+);
